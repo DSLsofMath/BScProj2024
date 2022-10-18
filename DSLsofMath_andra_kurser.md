@@ -59,7 +59,7 @@ Funktionell programmering (Haskell) och kursen DSLsofMath eller gott om matemati
 
 ## Förslagslämnare:
 
-Patrik Jansson
+
 
 ## Handledare:
 
