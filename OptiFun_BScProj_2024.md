@@ -26,7 +26,6 @@ Grov projektplan:
 * dokumentera i form av rapport och öppen källkod
 * kanske bidra till forskningsartikel om resultat från projektet
 
-
 ## Länkar:
 
 1. https://patrikja.owlstown.net/projects
@@ -34,20 +33,17 @@ Grov projektplan:
 
 ## Målgrupp:
 
-DV, D, IT, TM, F
+DV, D, IT, TM, F, GS
 
 ## Särskilda förkunskaper:
 
-Funktionell programmering (Haskell) och kursen DSLsofMath (DAT326 / DIT982) eller gott om matematik (TM-programmet) eller fysik (F-programmet).
+Funktionell programmering (Haskell) och kursen DSLsofMath (DAT326 / DIT982) eller gott om matematik (TM-programmet), fysik (F-programmet) eller globala system (GS).
 (Det kan gå att ta kursen DSLsofMath parallellt med projektet, men det blir svårare.)
 
-## Förslagslämnare
-
-* Enayatullah Norozi <norozie@student.chalmers.se>
-* Edvin Lundqvist Sternvik <e.sternvik@gmail.com>
-  
-## Handledare:
+## Förslagslämnare:
 
 Patrik Jansson
 
+## Handledare:
 
+Patrik Jansson
