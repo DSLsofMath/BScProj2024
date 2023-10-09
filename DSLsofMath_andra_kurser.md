@@ -63,4 +63,4 @@ Patrik Jansson
 
 ## Handledare:
 
-Patrik Jansson
+Patrik Jansson eller annan person inom FP-gruppen.
