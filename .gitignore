@@ -22,3 +22,7 @@ cabal.project.local~
 .HTF/
 .ghc.environment.*
 *~
+/DSLsofMath_andra_kurser.fdb_latexmk
+/DSLsofMath_andra_kurser.fls
+/DSLsofMath_andra_kurser.log
+/DSLsofMath_andra_kurser.pdf
