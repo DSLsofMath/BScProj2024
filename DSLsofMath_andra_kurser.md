@@ -49,7 +49,7 @@ Att göra ("produkt"):
 
 ## Målgrupp:
 
-DV, D, IT, TM
+DV, D, IT, TM, GS
 
 ## Särskilda förkunskaper:
 

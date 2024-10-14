@@ -1,18 +1,18 @@
 # Titel
 
-DSL för Pareto-optimering inom beräkningsvetenskap
+Flermålsoptimering och domän-specifika språk
 
 ## Bakgrund:
 
-I ett pågående samarbete mellan data- och fysik-institutionerna utvecklas verktyg för optimering av matematiska modeller för fusionsplasmafysik. Fysikerna har utvecklat en simulator med många parametrar och datavetarna tar fram generalla metoder för att utforska parameterområdet, söka efter optima, och visualisera resultaten. Många av de komponenter som behövs för kan också användas i andra sammanhang: klimateffekter, energisystem, etc.
+I ett pågående samarbete mellan datavetenskap på Chalmers och klimateffektforsknings-institutet i Potsdam utvecklas verktyg för att stödja beslutsfattare inom klimatområdet. Vi förutsätter att det finns en kraftigt förenklad modell (med simulator) som kan beräkna hur sannolika olika scenarier är och att det finns (bara) ett sätt att "mäta" hur bra utfallet blir i verje scenario. Baserat på detta har vi utvecklat en teori och en implementation som beräknar vilka beslut som är bäst i olika tillstånd. Nu vill vi utöka teori och implementation så att det kan hantera avvägningar (trade-offs) mellan olika sätt att värdera utfallen. Det finns alltså flera mål - man vill exempelvis minimera både kostnad och tid.
 
 DSLsofMath är namnet på ett pedagogiskt projekt som lett till en bok och en valfri kurs i årskurs 2-3 riktad till datavetare och matematiker på Chalmers och GU. Kursen presenterar klassiska matematiska ämnen från ett datavetenskapligt perspektiv: genom att specificera de introducerade begreppen, vara uppmärksam på syntax och typer, och slutligen genom att bygga domänspecifika språk for vissa matematiska områden.
 
-<!-- ![Exempel på Pareto-front vid optimering.](../talks/2022.Einstein_semester_closing_conf/img/S6.png) -->
-
 ## Projektbeskriving:
 
-Det här kandidatprojektet går ut på att ta fram DSLsofMath-inspirerade verktyg för interpolation och optimering inom beräkningsvetenskap. Ett speciellt fokus är optimering där det finns flera (minst två) olika sätt att mäta vad som är en "bra" lösning (exempelvis låg kostnad, låg risk). I dessa fall går det ofta inte att entydigt välja _en_ bästa lösning, utan det finns en mängd lösningar med olika trade-off mellan exempelvis kostnad och risk. Ett viktigt delproblem är att beräkna denna lösningsmängd som kallas Pareto-front.
+Det här kandidatprojektet går ut på att ta fram DSLsofMath-inspirerade verktyg för flermålsoptimering inom beräkningsvetenskap. I fokus är optimering där det finns flera (minst två) olika sätt att mäta vad som är en "bra" lösning (exempelvis låg kostnad, låg risk, kort tid, få fel, etc.). I dessa fall går det ofta inte att entydigt välja _en_ bästa lösning, utan det finns en mängd lösningar med olika trade-off mellan exempelvis kostnad och risk. Ett viktigt delproblem är att beräkna denna lösningsmängd som kallas Pareto-front.
+
+![Exempel på Pareto-front vid optimering.](/home/patrikj/src/ext/PIK/unshared/lectures/2022.Einstein_semester_closing_conf/img/S6.png)
 
 Implementationsspråk är Haskell (och kanske även Python). Materialet som utvecklas skall finnas öppet tillgängligt på github.
 
